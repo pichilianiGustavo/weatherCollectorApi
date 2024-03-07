@@ -63,7 +63,7 @@ public class ApiController {
 				responseJson.put("API Response", weatherApiConsumer.getWeatherByCep(cep, uuid));
 				return this.messageHandler.responseMessage(responseJson, HttpStatus.OK);
 			} catch (Exception e) {
-				log.error(uuid + " | ERRO! Exception" + e);
+				log.error(uuid + " | ERRO! Exception! " + e.getLocalizedMessage());
 				return this.messageHandler.responseMessage(responseJson, HttpStatus.OK);
 			}
 			
