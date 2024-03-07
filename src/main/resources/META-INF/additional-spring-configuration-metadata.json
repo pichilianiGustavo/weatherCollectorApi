@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "api.key",
+    "type": "java.lang.String",
+    "description": "A description for 'api.key'"
+  },
+  {
+    "name": "url.cep.api",
+    "type": "java.lang.String",
+    "description": "A description for 'url.cep.api'"
+  },
+  {
+    "name": "url.weather.api",
+    "type": "java.lang.String",
+    "description": "A description for 'url.weather.api'"
+  }
+]}
